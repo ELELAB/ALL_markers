@@ -57,7 +57,7 @@ Barplot of different gene types of excluded genes is created
 
 * RUNNING THE SCRIPT *
 
-The user should be in the moonlight_ALL_paper directory and run the script from there. 
+The user should be in the ALL_markers directory and run the script from there. 
 
 TARGET_process_bmp_comp.R, TARGET_norm_genes_bmp_comp.R and TARGET_norm_genes_plot_bmp_comp.R
 are the scripts that should be run. 
