@@ -64,7 +64,7 @@ Above data is saved.
 
 * RUNNING THE SCRIPTS *
 
-The user should be in the moonlight_ALL_paper directory and run the scripts
+The user should be in the ALL_markers directory and run the scripts
 from there. 
 
 TARGET_ALL_P2_bmp_replicates.R should be run first. 
