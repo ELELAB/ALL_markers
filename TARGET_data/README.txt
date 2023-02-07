@@ -65,7 +65,7 @@ All of above are saved.
 
 * RUNNING THE SCRIPT *
 
-The user should be in the moonlight_ALL_paper directory and run the script from there. 
+The user should be in the ALL_markers directory and run the script from there. 
 
 get_TARGET_data.R is the script that should be run. This script sources the script:
 get_TARGET_data_functions.R. 
