@@ -33,7 +33,7 @@ Voom transformed data is saved.
 
 * RUNNING THE SCRIPT * 
 
-The user should be in the moonlight_ALL_paper directory and run the script from there. 
+The user should be in the ALL_markers directory and run the script from there. 
 
 TARGET_ALL_P2_bmp_voom_comp.R is the script that should be run. 
 
