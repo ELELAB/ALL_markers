@@ -26,7 +26,7 @@ genes_biomart <- read_xlsx(path = "TARGET_processing/bone_marrow_primary_comp/AL
 
 # Create barplot of different gene types of excluded genes
 gene_types <- genes_biomart %>%
-  count(gene_type_archive_biomart) %>%
+  dplyr::count(gene_type_archive_biomart) %>%
   ggplot(data = ., 
          mapping = aes(x = reorder(gene_type_archive_biomart, -n), 
                        y = n)) +
