@@ -11,8 +11,7 @@ the following workflow.
 6) voom transformed
 7) batch correction for year of diagnosis variable
 
-This directory contains script and resulting output of sample information
-needed to perform MDS analysis. 
+This directory contains scripts for performing these analyses.
 
 
 * REQUIREMENTS *
