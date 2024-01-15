@@ -108,3 +108,7 @@ TARGET_dea:
 TARGET_housekeeping
 - This directory investigates overlaps of discovered differentially expressed 
   genes with lists of housekeeping genes
+
+TARGET_enrichment
+- This directory performs enrichment analyses of consensus differentially
+  expressed genes

@@ -143,6 +143,12 @@ source("TARGET_housekeeping/bone_marrow_primary_housekeeping_comp/TARGET_ALL_P2_
 # --------------------------------------------------------------------------
 
 
+## ENRICHMENT ANALYSIS -----------------------------------------------------
+
+# Perform enrichment analysis of consensus DEGs
+source("TARGET_enrichment/bone_marrow_primary_enrichment_comp/consensus_DEG/TARGET_ALL_P2_bmp_DEG_enrichment.R")
+
+# --------------------------------------------------------------------------
 
 
 
