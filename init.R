@@ -76,7 +76,7 @@ source("TARGET_transform/voom_transform_bmp_comp/TARGET_ALL_P2_bmp_voom_comp.R")
 # --------------------------------------------------------------------------
 
 
-## MULTIDIMENSIONAL SCALING ANALYSIS  --------------------------------------
+## MULTIDIMENSIONAL SCALING ANALYSIS BEFORE BATCH CORRECTION ---------------
 
 # Extract information about samples such as subtype, metadata etc
 source("TARGET_pca/bone_marrow_primary_pca_comp/TARGET_ALL_P2_bmp_info_comp.R")
@@ -98,13 +98,38 @@ source("TARGET_batch/bone_marrow_primary_batch_comp/TARGET_ALL_P2_bmp_batch_comp
 # --------------------------------------------------------------------------
 
 
-## MULTIDIMENSIONAL SCALING ANALYSIS  --------------------------------------
+## MULTIDIMENSIONAL SCALING ANALYSIS AFTER BATCH CORRECTION  ---------------
 
 # Perform MDS on batch corrected data
 source("TARGET_pca/bone_marrow_primary_pca_comp/batch_corr_pca/TARGET_ALL_P2_bmp_pca_batch_comp.R")
 
 # --------------------------------------------------------------------------
 
+
+## DIFFERENTIAL EXPRESSION ANALYSIS ----------------------------------------
+
+# Perform DEA using DESeq2 method
+source("TARGET_dea/bone_marrow_primary_dea_comp/deseq2/TARGET_ALL_P2_bmp_dea_deseq2.R")
+
+# Perform DEA using edgeR method
+source("TARGET_dea/bone_marrow_primary_dea_comp/edgeR/TARGET_ALL_P2_bmp_dea_edgeR.R")
+
+# Perform DEA using limma-voom method
+source("TARGET_dea/bone_marrow_primary_dea_comp/limma_voom/TARGET_ALL_P2_bmp_dea_limma.R")
+
+# Make visualizations of gene counts for the three methods
+source("TARGET_dea/bone_marrow_primary_dea_comp/gene_counts_DEA/TARGET_ALL_P2_bmp_dea_gene_counts.R")
+
+# Make visualizations of DEA results found using the three methods
+source("TARGET_dea/bone_marrow_primary_dea_comp/visualization_DEA/TARGET_ALL_P2_bmp_dea_visualization.R")
+
+# Compare results of DEA results found using the three methods
+source("TARGET_dea/bone_marrow_primary_dea_comp/compare_DEA/TARGET_ALL_P2_bmp_dea_compare.R")
+
+# Intersect identified DEGs across the three methods
+source("TARGET_dea/bone_marrow_primary_dea_comp/compare_DEA/gene_intersection_lists/TARGET_ALL_P2_bmp_dea_gene_intersection_lists.R")
+
+# --------------------------------------------------------------------------
 
 
 
