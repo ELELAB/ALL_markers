@@ -89,7 +89,15 @@ TARGET_transform:
   gene expression data and the directory voom_transform_bmp_comp voom
   transforms processed data. 
 
+TARGET_pca:
+- This directory performs multidimensional scaling of TARGET-ALL-P2 gene expression
+  data
+- In here, the directory bone_marrow_primary_pca_raw performs MDS of the raw gene
+  expression data and the directory bone_marrow_primary_pca_comp performs MDS of 
+  the processed data (both before and after batch correction)
 
+TARGET_batch:
+- This directory performs batch correction of TARGET-ALL-P2 gene expression data
 
 
 

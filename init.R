@@ -76,6 +76,36 @@ source("TARGET_transform/voom_transform_bmp_comp/TARGET_ALL_P2_bmp_voom_comp.R")
 # --------------------------------------------------------------------------
 
 
+## MULTIDIMENSIONAL SCALING ANALYSIS  --------------------------------------
+
+# Extract information about samples such as subtype, metadata etc
+source("TARGET_pca/bone_marrow_primary_pca_comp/TARGET_ALL_P2_bmp_info_comp.R")
+
+# Perform MDS on raw gene expression data
+source("TARGET_pca/bone_marrow_primary_pca_raw/TARGET_ALL_P2_bmp_raw_pca.R")
+
+# Perform MDS on processed data before batch correction
+source("TARGET_pca/bone_marrow_primary_pca_comp/init_pca/TARGET_ALL_P2_bmp_pca_comp.R")
+
+# --------------------------------------------------------------------------
+
+
+## BATCH CORRECTION  -------------------------------------------------------
+
+# Apply batch correction
+source("TARGET_batch/bone_marrow_primary_batch_comp/TARGET_ALL_P2_bmp_batch_comp.R")
+
+# --------------------------------------------------------------------------
+
+
+## MULTIDIMENSIONAL SCALING ANALYSIS  --------------------------------------
+
+# Perform MDS on batch corrected data
+source("TARGET_pca/bone_marrow_primary_pca_comp/batch_corr_pca/TARGET_ALL_P2_bmp_pca_batch_comp.R")
+
+# --------------------------------------------------------------------------
+
+
 
 
 
