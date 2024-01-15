@@ -302,14 +302,6 @@
         "scatterplot3d"
       ]
     },
-    "GSA": {
-      "Package": "GSA",
-      "Version": "1.03.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "635c4a19876864f3e4fa1b69996abbc5",
-      "Requirements": []
-    },
     "GenSA": {
       "Package": "GenSA",
       "Version": "1.1.7",
@@ -455,6 +447,14 @@
         "httr",
         "png"
       ]
+    },
+    "KMsurv": {
+      "Package": "KMsurv",
+      "Version": "0.1-5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "aee647d15e5541ad44d157f7b78fda01",
+      "Requirements": []
     },
     "KernSmooth": {
       "Package": "KernSmooth",
@@ -1631,6 +1631,14 @@
       "Hash": "4b68aa51edd89a0e044a66e75ae3cc6c",
       "Requirements": []
     },
+    "exactRankTests": {
+      "Package": "exactRankTests",
+      "Version": "0.8-35",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "790c46974d99ff51442f4d134b2d70eb",
+      "Requirements": []
+    },
     "factoextra": {
       "Package": "factoextra",
       "Version": "1.0.7",
@@ -1688,17 +1696,6 @@
       "Repository": "CRAN",
       "Hash": "09fb526c49460c4933bc077db6eba924",
       "Requirements": []
-    },
-    "fontawesome": {
-      "Package": "fontawesome",
-      "Version": "0.4.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "c5a628c2570aa86a96cc6ef739d8bfda",
-      "Requirements": [
-        "htmltools",
-        "rlang"
-      ]
     },
     "forcats": {
       "Package": "forcats",
@@ -1941,6 +1938,19 @@
         "ggplot2"
       ]
     },
+    "ggtext": {
+      "Package": "ggtext",
+      "Version": "0.1.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c5ba8f5056487403a299b91984be86ca",
+      "Requirements": [
+        "ggplot2",
+        "gridtext",
+        "rlang",
+        "scales"
+      ]
+    },
     "git2r": {
       "Package": "git2r",
       "Version": "0.30.1",
@@ -2044,6 +2054,23 @@
       "Hash": "7d7f283939f563670a697165b2cf5560",
       "Requirements": [
         "gtable"
+      ]
+    },
+    "gridtext": {
+      "Package": "gridtext",
+      "Version": "0.1.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "05e4f5fffb1eecfeaac9ea0b7f255fef",
+      "Requirements": [
+        "Rcpp",
+        "curl",
+        "jpeg",
+        "markdown",
+        "png",
+        "rlang",
+        "stringr",
+        "xml2"
       ]
     },
     "gtable": {
@@ -2155,19 +2182,6 @@
       "Repository": "CRAN",
       "Hash": "13641a1c6d2cc98801b76764078e17ea",
       "Requirements": []
-    },
-    "httpuv": {
-      "Package": "httpuv",
-      "Version": "1.6.8",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "08e611aee165b27f8ff18770285fb535",
-      "Requirements": [
-        "R6",
-        "Rcpp",
-        "later",
-        "promises"
-      ]
     },
     "httr": {
       "Package": "httr",
@@ -2344,6 +2358,16 @@
       "Repository": "CRAN",
       "Hash": "a4269a09a9b865579b2635c77e572374",
       "Requirements": []
+    },
+    "km.ci": {
+      "Package": "km.ci",
+      "Version": "0.5-6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "41d857f78edf8f5db59608b6a42b6005",
+      "Requirements": [
+        "survival"
+      ]
     },
     "knitr": {
       "Package": "knitr",
@@ -2552,6 +2576,17 @@
       "Hash": "57af0c3da1f1a50680b186591c3359af",
       "Requirements": []
     },
+    "maxstat": {
+      "Package": "maxstat",
+      "Version": "0.7-25",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c166f04bd2bbd830ab34b7329104c019",
+      "Requirements": [
+        "exactRankTests",
+        "mvtnorm"
+      ]
+    },
     "mclust": {
       "Package": "mclust",
       "Version": "6.0.0",
@@ -2703,18 +2738,6 @@
       "Hash": "b04c27110bf367b4daa93f34f3d58e75",
       "Requirements": [
         "askpass"
-      ]
-    },
-    "openxlsx": {
-      "Package": "openxlsx",
-      "Version": "4.2.5.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "e398ce13682a7409d16e13df09f65875",
-      "Requirements": [
-        "Rcpp",
-        "stringi",
-        "zip"
       ]
     },
     "osfr": {
@@ -3397,21 +3420,6 @@
         "xml2"
       ]
     },
-    "samr": {
-      "Package": "samr",
-      "Version": "3.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "4bffa539b8fcbb3ed035230b0ac14be1",
-      "Requirements": [
-        "GSA",
-        "impute",
-        "matrixStats",
-        "openxlsx",
-        "shiny",
-        "shinyFiles"
-      ]
-    },
     "sass": {
       "Package": "sass",
       "Version": "0.4.5",
@@ -3470,49 +3478,6 @@
       "Hash": "9067f962730f58b14d8ae54ca885509f",
       "Requirements": []
     },
-    "shiny": {
-      "Package": "shiny",
-      "Version": "1.7.4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "c2eae3d8c670fa9dfa35a12066f4a1d5",
-      "Requirements": [
-        "R6",
-        "bslib",
-        "cachem",
-        "commonmark",
-        "crayon",
-        "ellipsis",
-        "fastmap",
-        "fontawesome",
-        "glue",
-        "htmltools",
-        "httpuv",
-        "jsonlite",
-        "later",
-        "lifecycle",
-        "mime",
-        "promises",
-        "rlang",
-        "sourcetools",
-        "withr",
-        "xtable"
-      ]
-    },
-    "shinyFiles": {
-      "Package": "shinyFiles",
-      "Version": "0.9.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "92c28bcdee44e205a99799f6ea604b82",
-      "Requirements": [
-        "fs",
-        "htmltools",
-        "jsonlite",
-        "shiny",
-        "tibble"
-      ]
-    },
     "skmeans": {
       "Package": "skmeans",
       "Version": "0.2-14",
@@ -3541,14 +3506,6 @@
       "Hash": "40b74690debd20c57d93d8c246b305d4",
       "Requirements": []
     },
-    "sourcetools": {
-      "Package": "sourcetools",
-      "Version": "0.1.7",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "947e4e02a79effa5d512473e10f41797",
-      "Requirements": []
-    },
     "stringi": {
       "Package": "stringi",
       "Version": "1.7.12",
@@ -3573,6 +3530,24 @@
         "vctrs"
       ]
     },
+    "survMisc": {
+      "Package": "survMisc",
+      "Version": "0.5.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "2367feed5d6f99ee1e380da3eac55ab6",
+      "Requirements": [
+        "KMsurv",
+        "data.table",
+        "ggplot2",
+        "gridExtra",
+        "km.ci",
+        "knitr",
+        "survival",
+        "xtable",
+        "zoo"
+      ]
+    },
     "survival": {
       "Package": "survival",
       "Version": "3.5-0",
@@ -3583,22 +3558,28 @@
         "Matrix"
       ]
     },
-    "sva": {
-      "Package": "sva",
-      "Version": "3.46.0",
-      "Source": "Bioconductor",
-      "git_url": "https://git.bioconductor.org/packages/sva",
-      "git_branch": "RELEASE_3_16",
-      "git_last_commit": "4aac49c",
-      "git_last_commit_date": "2022-11-01",
-      "Hash": "cff27a16344227cf1b74703774380618",
+    "survminer": {
+      "Package": "survminer",
+      "Version": "0.4.9",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "3f29f006a8eb499eff91d8b72325756e",
       "Requirements": [
-        "BiocParallel",
-        "edgeR",
-        "genefilter",
-        "limma",
-        "matrixStats",
-        "mgcv"
+        "broom",
+        "dplyr",
+        "ggplot2",
+        "ggpubr",
+        "ggtext",
+        "gridExtra",
+        "magrittr",
+        "maxstat",
+        "purrr",
+        "rlang",
+        "scales",
+        "survMisc",
+        "survival",
+        "tibble",
+        "tidyr"
       ]
     },
     "sys": {
@@ -3968,14 +3949,6 @@
       "Hash": "ee9b643aa8331c45d8d82eb3a137c9bc",
       "Requirements": []
     },
-    "zip": {
-      "Package": "zip",
-      "Version": "2.2.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "c42bfcec3fa6a0cce17ce1f8bc684f88",
-      "Requirements": []
-    },
     "zlibbioc": {
       "Package": "zlibbioc",
       "Version": "1.44.0",
@@ -3986,6 +3959,16 @@
       "git_last_commit_date": "2022-11-01",
       "Hash": "6f578730acbdfc7ce2ca49df29bb5352",
       "Requirements": []
+    },
+    "zoo": {
+      "Package": "zoo",
+      "Version": "1.8-12",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5c715954112b45499fb1dadc6ee6ee3e",
+      "Requirements": [
+        "lattice"
+      ]
     }
   }
 }
