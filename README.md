@@ -73,11 +73,11 @@ TARGET_data:
 - This directory contains gene expression data of the TARGET-ALL-P2 project and
   information about its metadata such as age of patients, number of samples,
   number of genes, subtype information etc. Moreover, here the data is
-  subsetted to contain only Primary Blood Derived Cancer - Bone Marrow samples. 
+  subsetted to contain only Primary Blood Derived Cancer - Bone Marrow samples 
 
 TARGET_replicates:
 - This directory investigates replicate samples found in the TARGET-ALL-P2
-  data and adjusts the data for these replicates. 
+  data and adjusts the data for these replicates
   
 TARGET_processing:
 - This directory processes gene expression data of the TARGET-ALL-P2
@@ -87,14 +87,16 @@ TARGET_transform:
 - This directory voom transforms TARGET-ALL-P2 gene expression data
 - In here, the directory voom_transform_bmp_raw voom transforms the raw
   gene expression data and the directory voom_transform_bmp_comp voom
-  transforms processed data. 
+  transforms processed data
 
 TARGET_pca:
 - This directory performs multidimensional scaling of TARGET-ALL-P2 gene expression
   data
 - In here, the directory bone_marrow_primary_pca_raw performs MDS of the raw gene
   expression data and the directory bone_marrow_primary_pca_comp performs MDS of 
-  the processed data (both before and after batch correction)
+  the processed data (both before and after batch correction). Moreover, in 
+  bone_marrow_primary_pca_comp, PCA is performed to find the contributions 
+  of genes to principal components 1 and 2 
 
 TARGET_batch:
 - This directory performs batch correction of TARGET-ALL-P2 gene expression data
