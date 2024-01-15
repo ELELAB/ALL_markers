@@ -90,7 +90,7 @@ TARGET_transform:
   transforms processed data
 
 TARGET_pca:
-- This directory performs multidimensional scaling of TARGET-ALL-P2 gene expression
+- This directory performs dimensionality reduction of TARGET-ALL-P2 gene expression
   data
 - In here, the directory bone_marrow_primary_pca_raw performs MDS of the raw gene
   expression data and the directory bone_marrow_primary_pca_comp performs MDS of 
