@@ -132,8 +132,15 @@ source("TARGET_dea/bone_marrow_primary_dea_comp/compare_DEA/gene_intersection_li
 # --------------------------------------------------------------------------
 
 
+## HOUSEKEEPING GENES ------------------------------------------------------
 
+# Find overlap between identified DEGs and housekeeping genes
+source("TARGET_housekeeping/bone_marrow_primary_housekeeping_comp/TARGET_ALL_P2_bmp_housekeeping.R")
 
+# Visualize identified housekeeping DEGs
+source("TARGET_housekeeping/bone_marrow_primary_housekeeping_comp/TARGET_ALL_P2_bmp_housekeeping_visualization.R")
+
+# --------------------------------------------------------------------------
 
 
 
