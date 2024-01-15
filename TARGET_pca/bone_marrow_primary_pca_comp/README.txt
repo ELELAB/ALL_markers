@@ -19,8 +19,11 @@ init_pca (workflow 1) and batch_corr_pca (workflow 2).
 More details about analyses belonging to workflow 1 and 2 can be
 found in the README files of the respective directory. 
 
-This directory contains script and resulting output of sample information
-needed to perform MDS analysis. 
+Moreover, this folder contains a third subfolder (gene_contributions_pca)
+which finds contributions in percentage of features (genes) to
+principal components 1 and 2. 
+
+This directory contains scripts needed to perform these analyses.
 
 
 * REQUIREMENTS *
