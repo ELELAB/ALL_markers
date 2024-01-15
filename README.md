@@ -101,5 +101,7 @@ TARGET_pca:
 TARGET_batch:
 - This directory performs batch correction of TARGET-ALL-P2 gene expression data
 
-
+TARGET_dea:
+- This directory performs differential expression analysis of TARGET-ALL-P2
+  gene expression data
 
