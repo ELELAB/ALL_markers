@@ -105,3 +105,6 @@ TARGET_dea:
 - This directory performs differential expression analysis of TARGET-ALL-P2
   gene expression data
 
+TARGET_housekeeping
+- This directory investigates overlaps of discovered differentially expressed 
+  genes with lists of housekeeping genes
