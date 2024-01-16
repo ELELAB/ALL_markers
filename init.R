@@ -172,3 +172,14 @@ source("TARGET_pca/bone_marrow_primary_pca_comp/gene_contributions_pca/TARGET_AL
 source("TARGET_pca/bone_marrow_primary_pca_comp/gene_contributions_pca/gene_contributions_pca_biotypes/TARGET_ALL_P2_bmp_pca_gene_contrib_biotypes.R")
 
 # --------------------------------------------------------------------------
+
+
+## UNSUPERVISED CLUSTERING -------------------------------------------------
+
+# Perform unsupervised clustering using cola framework
+source("TARGET_clustering/bone_marrow_primary_clustering_comp/TARGET_ALL_P2_bmp_run_cola.R")
+
+# Analyze and visualize results from unsupervised clustering
+source("TARGET_clustering/bone_marrow_primary_clustering_comp/TARGET_ALL_P2_bmp_analyze_cola.R")
+
+# --------------------------------------------------------------------------

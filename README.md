@@ -116,3 +116,7 @@ TARGET_enrichment
 TARGET_lasso
 - This directory performs regularized elastic net logistic regression of 
   TARGET-ALL-P2 gene expression data
+
+TARGET_clustering
+- This directory performs unsupervised clustering of the TARGET-ALL-P2 gene
+  expression data
