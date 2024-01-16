@@ -112,3 +112,7 @@ TARGET_housekeeping
 TARGET_enrichment
 - This directory performs enrichment analyses of consensus differentially
   expressed genes
+
+TARGET_lasso
+- This directory performs regularized elastic net logistic regression of 
+  TARGET-ALL-P2 gene expression data

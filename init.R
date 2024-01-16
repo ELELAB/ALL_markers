@@ -151,4 +151,12 @@ source("TARGET_enrichment/bone_marrow_primary_enrichment_comp/consensus_DEG/TARG
 # --------------------------------------------------------------------------
 
 
+## REGULARIZED LOGISTIC REGRESSION -----------------------------------------
 
+# Perform regularized logistic regression of gene expression data
+source("TARGET_lasso/bone_marrow_primary_lasso_comp/TARGET_ALL_P2_bmp_lasso.R")
+
+# Visualize genes found from logistic regression 
+source("TARGET_lasso/bone_marrow_primary_lasso_comp/elastic_consensus_biotypes/TARGET_ALL_P2_bmp_consensus_biotypes.R")
+
+# --------------------------------------------------------------------------
