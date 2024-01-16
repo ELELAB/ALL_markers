@@ -160,3 +160,15 @@ source("TARGET_lasso/bone_marrow_primary_lasso_comp/TARGET_ALL_P2_bmp_lasso.R")
 source("TARGET_lasso/bone_marrow_primary_lasso_comp/elastic_consensus_biotypes/TARGET_ALL_P2_bmp_consensus_biotypes.R")
 
 # --------------------------------------------------------------------------
+
+
+## GENE CONTRIBUTIONS FROM PCA ---------------------------------------------
+
+# Perform PCA on gene expression data to find feature (gene) contributions to 
+# principal components
+source("TARGET_pca/bone_marrow_primary_pca_comp/gene_contributions_pca/TARGET_ALL_P2_bmp_pca_gene_contrib.R")
+
+# Visualize feature (gene) contributions to principal components
+source("TARGET_pca/bone_marrow_primary_pca_comp/gene_contributions_pca/gene_contributions_pca_biotypes/TARGET_ALL_P2_bmp_pca_gene_contrib_biotypes.R")
+
+# --------------------------------------------------------------------------
