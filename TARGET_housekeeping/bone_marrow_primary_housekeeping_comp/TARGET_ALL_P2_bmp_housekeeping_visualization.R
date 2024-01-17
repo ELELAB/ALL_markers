@@ -36,13 +36,13 @@ ALL_P2_bmp_raw_data_filt <- assays(ALL_P2_bmp_raw_data[rownames(ALL_P2_bmp_raw_d
 
 # Extract barcodes of samples belonging to B-ALL subtype
 B_barcodes <- ALL_P2_info %>% 
-  filter(subtype_abbr == "B-cell ALL") %>% 
-  select(barcodes)
+  dplyr::filter(subtype_abbr == "B-cell ALL") %>% 
+  dplyr::select(barcodes)
 
 # Extract barcodes of samples belonging to T-ALL subtype
 T_barcodes <- ALL_P2_info %>% 
-  filter(subtype_abbr == "T-cell ALL") %>% 
-  select(barcodes)
+  dplyr::filter(subtype_abbr == "T-cell ALL") %>% 
+  dplyr::select(barcodes)
 
 # Subset filtered gene expression data to contain only the 103 HK DEGs
 ALL_P2_bmp_filt_hkg <- ALL_P2_bmp_filt_data[HK_DEG$ENSEMBL_ID,]
@@ -116,7 +116,7 @@ boxplot_raw_data <- map(1:nrow(ALL_P2_bmp_raw_data_filt_hkg), function(gene) {
 # Visualize logFC distribution of 103 housekeeping consensus DEGs
 hkg_DEG_density <- dea_consensus %>%
   ungroup() %>%
-  filter(Gene_name %in% HK_DEG$Gene_name) %>%
+  dplyr::filter(Gene_name %in% HK_DEG$Gene_name) %>%
   dplyr::select(logFC_limma_voom,
                 logFC_edgeR,
                 log2FoldChange_DESeq2, 

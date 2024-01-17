@@ -24,10 +24,10 @@ wrangle_exp_data <- function(exp_data,
     as.data.frame() %>% 
     rownames_to_column(var = "barcodes") %>% 
     as_tibble() %>% 
-    mutate(exp_value = as.numeric(.),
+    dplyr::mutate(exp_value = as.numeric(.),
            subtype = "T-cell ALL",
            ENSEMBL_ID = rownames(exp_data)[gene_row_num]) %>% 
-    select(-.)
+    dplyr::select(-.)
   
   # Get gene expression values of gene of B subtype samples
   # Combine into one tibble with gene_exp_T 
@@ -36,13 +36,13 @@ wrangle_exp_data <- function(exp_data,
     as.data.frame() %>% 
     rownames_to_column(var = "barcodes") %>% 
     as_tibble() %>% 
-    mutate(exp_value = as.numeric(.),
+    dplyr::mutate(exp_value = as.numeric(.),
            subtype = "B-cell ALL",
            ENSEMBL_ID = rownames(exp_data)[gene_row_num]) %>% 
-    select(-.) %>% 
+    dplyr::select(-.) %>% 
     bind_rows(., 
               gene_exp_T) %>%
-    mutate(HK_data %>% 
+    dplyr::mutate(HK_data %>% 
              filter(ENSEMBL_ID == rownames(exp_data)[gene_row_num]) %>% 
              select(Gene_name)) 
   

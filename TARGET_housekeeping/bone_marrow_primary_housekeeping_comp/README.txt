@@ -22,7 +22,8 @@ Following R and R packages are needed:
 Process in script TARGET_ALL_P2_bmp_housekeeping.R:
 
 Step 1: Load data
-Consensus DEG data and housekeeping gene lists are loaded.
+Consensus DEG data, housekeeping gene lists, and
+gene expression data are loaded.
 
 Step 2: Data wrangling
 Gene lists are extracted from the loaded data.
@@ -82,6 +83,10 @@ Output from script TARGET_ALL_P2_bmp_housekeeping.R:
 
 ./DEG_vs_homemade.csv:
 - list of common genes for tissue relevant HKGs and consensus DEGs from step 3 of * PROCESS IN THE SCRIPT *
+
+./eisenberg_vs_dataset_genes.csv:
+- list of common genes between Eisenberg HKGs and all genes in gene expression matrix from step 3 of
+  * PROCESS IN THE SCRIPT *
 
 Output from script TARGET_ALL_P2_bmp_housekeeping_visualization.R:
 
