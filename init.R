@@ -212,3 +212,11 @@ source("TARGET_survival/bone_marrow_primary_survival_comp/TARGET_ALL_P2_bmp_surv
 source("TARGET_survival/bone_marrow_primary_survival_comp/TARGET_ALL_P2_bmp_survival_cluster_markers.R")
 
 # --------------------------------------------------------------------------
+
+
+## DRUG TARGET INVESTIGATION -----------------------------------------------
+
+# Perform drug target investigation of gene expression markers
+source("TARGET_drug_targets/bone_marrow_primary_drug_targets_comp/TARGET_ALL_P2_bmp_drug_targets_markers.R")
+
+# --------------------------------------------------------------------------

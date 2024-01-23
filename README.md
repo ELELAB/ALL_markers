@@ -134,3 +134,8 @@ TARGET_random_forest
 TARGET_survival
 - This directory performs survival analysis on predicted subtype-related
   and cluster-related gene expression markers
+
+TARGET_drug_targets
+- This directory investigates if any of the subtype-related and cluster-
+  related gene expression markers are annotated as drug targets in the
+  Drug Gene Interaction Database
