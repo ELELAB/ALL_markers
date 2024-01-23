@@ -117,6 +117,13 @@ TARGET_lasso
 - This directory performs regularized elastic net logistic regression of 
   TARGET-ALL-P2 gene expression data
 
+TARGET_compare_genes
+- This directory compares results found from above methods (differential
+  expression analysis, elastic net logistic regression, PCA, housekeeping
+  analysis) and with genes reported in the Network of Cancer Genes (NCG)
+  database
+
 TARGET_clustering
 - This directory performs unsupervised clustering of the TARGET-ALL-P2 gene
   expression data
+

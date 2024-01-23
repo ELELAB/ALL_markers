@@ -173,6 +173,13 @@ source("TARGET_pca/bone_marrow_primary_pca_comp/gene_contributions_pca/gene_cont
 
 # --------------------------------------------------------------------------
 
+## COMPARE RESULTS ACROSS METHODS ------------------------------------------
+
+# Compare results across methods
+source("TARGET_compare_genes/bone_marrow_primary_compare_comp/TARGET_ALL_P2_bmp_compare.R")
+
+# --------------------------------------------------------------------------
+
 
 ## UNSUPERVISED CLUSTERING -------------------------------------------------
 
