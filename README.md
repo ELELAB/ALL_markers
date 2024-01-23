@@ -127,3 +127,6 @@ TARGET_clustering
 - This directory performs unsupervised clustering of the TARGET-ALL-P2 gene
   expression data
 
+TARGET_random_forest
+- This directory performs random forest variable selection on predicted
+  clusters from unsupervised clustering

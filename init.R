@@ -190,3 +190,14 @@ source("TARGET_clustering/bone_marrow_primary_clustering_comp/TARGET_ALL_P2_bmp_
 source("TARGET_clustering/bone_marrow_primary_clustering_comp/TARGET_ALL_P2_bmp_analyze_cola.R")
 
 # --------------------------------------------------------------------------
+
+
+## RANDOM FOREST ON PREDICTED CLUSTERS -------------------------------------
+
+# Perform variable selecting using random forest on predicted clusters
+source("TARGET_random_forest/bone_marrow_primary_random_forest_comp/TARGET_ALL_P2_bmp_clusters_random_forest.R")
+
+# Analyze selected variables from random forest
+source("TARGET_random_forest/bone_marrow_primary_random_forest_comp/TARGET_ALL_P2_bmp_analyze_clusters_random_forest.R")
+
+# --------------------------------------------------------------------------
