@@ -201,3 +201,14 @@ source("TARGET_random_forest/bone_marrow_primary_random_forest_comp/TARGET_ALL_P
 source("TARGET_random_forest/bone_marrow_primary_random_forest_comp/TARGET_ALL_P2_bmp_analyze_clusters_random_forest.R")
 
 # --------------------------------------------------------------------------
+
+
+## SURVIVAL ANALYSIS -------------------------------------------------------
+
+# Perform survival analysis on predicted subtype-related gene expression markers
+source("TARGET_survival/bone_marrow_primary_survival_comp/TARGET_ALL_P2_bmp_survival_subtype_markers.R")
+
+# Perform survival analysis on predicted cluster-related gene expression markers
+source("TARGET_survival/bone_marrow_primary_survival_comp/TARGET_ALL_P2_bmp_survival_cluster_markers.R")
+
+# --------------------------------------------------------------------------

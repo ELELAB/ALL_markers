@@ -130,3 +130,7 @@ TARGET_clustering
 TARGET_random_forest
 - This directory performs random forest variable selection on predicted
   clusters from unsupervised clustering
+
+TARGET_survival
+- This directory performs survival analysis on predicted subtype-related
+  and cluster-related gene expression markers
