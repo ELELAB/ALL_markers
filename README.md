@@ -139,3 +139,9 @@ TARGET_drug_targets
 - This directory investigates if any of the subtype-related and cluster-
   related gene expression markers are annotated as drug targets in the
   Drug Gene Interaction Database
+
+validation
+- This directory contains scripts used to perform validation of predicted
+  gene expression markers from an independent cohort of patients with ALL
+  from a Danish hospital. As this data cannot be granted, these scripts
+  are not meant to be runnable. 
