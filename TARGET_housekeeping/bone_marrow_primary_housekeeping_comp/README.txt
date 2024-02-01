@@ -2,9 +2,9 @@
 
 This directory, bone_marrow_primary_housekeeping_comp, contains scripts 
 that compare the consensus DEGs found by limma-voom, edgeR and DESeq2 
-to lists of housekeeping genes based on literature reviews.
+to a list of housekeeping genes.
 This directory also contains the folder HKG_lists which contains the
-lists of housekeeping genes used for comparison.
+list of housekeeping genes used for comparison.
 
 
 * REQUIREMENTS *
@@ -22,14 +22,14 @@ Following R and R packages are needed:
 Process in script TARGET_ALL_P2_bmp_housekeeping.R:
 
 Step 1: Load data
-Consensus DEG data, housekeeping gene lists, and
+Consensus DEG data, housekeeping gene list, and
 gene expression data are loaded.
 
 Step 2: Data wrangling
 Gene lists are extracted from the loaded data.
 
 Step 3: Comparisons
-Intersections between the three lists are found.
+Intersections between the gene lists are found.
 
 Step 4: Save results
 Gene intersection lists from step 3 are saved.
@@ -37,7 +37,7 @@ Gene intersection lists from step 3 are saved.
 Process in script TARGET_ALL_P2_bmp_housekeeping_visualization.R:
 
 Step 1: Load data
-Consensus DEG data, housekeeping gene lists, filtered and raw
+Consensus DEG data, housekeeping gene list, filtered and raw
 gene expression data, and metadata information about samples
 are loaded.
 
@@ -75,14 +75,8 @@ source the functions script: TARGET_ALL_P2_bmp_housekeeping_functions.R
 
 Output from script TARGET_ALL_P2_bmp_housekeeping.R:
 
-./eisenberg_vs_homemade.csv:
-- list of common genes in the two housekeeping genes lists from step 3 of * PROCESS IN THE SCRIPT *
-
 ./DEG_vs_eisenberg.csv:
 - list of common genes for Eisenberg HKGs and consensus DEGs from step 3 of * PROCESS IN THE SCRIPT *
-
-./DEG_vs_homemade.csv:
-- list of common genes for tissue relevant HKGs and consensus DEGs from step 3 of * PROCESS IN THE SCRIPT *
 
 ./eisenberg_vs_dataset_genes.csv:
 - list of common genes between Eisenberg HKGs and all genes in gene expression matrix from step 3 of
