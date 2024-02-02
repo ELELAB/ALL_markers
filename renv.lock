@@ -3102,6 +3102,20 @@
         "survival"
       ]
     },
+    "rDGIdb": {
+      "Package": "rDGIdb",
+      "Version": "1.24.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/rDGIdb",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "96db5e2",
+      "git_last_commit_date": "2022-11-01",
+      "Hash": "f0819c8a640348039e88a246e222f8f9",
+      "Requirements": [
+        "httr",
+        "jsonlite"
+      ]
+    },
     "randomForest": {
       "Package": "randomForest",
       "Version": "4.7-1.1",
@@ -3580,6 +3594,24 @@
         "survival",
         "tibble",
         "tidyr"
+      ]
+    },
+    "sva": {
+      "Package": "sva",
+      "Version": "3.46.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/sva",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "4aac49c",
+      "git_last_commit_date": "2022-11-01",
+      "Hash": "cff27a16344227cf1b74703774380618",
+      "Requirements": [
+        "BiocParallel",
+        "edgeR",
+        "genefilter",
+        "limma",
+        "matrixStats",
+        "mgcv"
       ]
     },
     "sys": {
