@@ -34,7 +34,7 @@ cd ALL_markers
 The environment should be placed in the ALL_markers folder:
 
 ```
-conda create --prefix ./env_ALL -c conda-forge r-base=4.2 r-pacman=0.5.1 r-curl=4.3.3 r-ragg=1.2.5 r-renv=0.16.0 r-osfr=0.2.9 r-cairo=1.6.0
+conda create --prefix ./env_ALL -c conda-forge r-base=4.2 r-pacman=0.5.1 r-curl=4.3.3 r-ragg=1.2.5 r-renv=0.16.0 r-osfr=0.2.9 r-cairo=1.6.0 gsl=2.7
 conda activate ./env_ALL
 ```
 
