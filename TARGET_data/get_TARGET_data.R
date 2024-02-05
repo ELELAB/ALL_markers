@@ -15,12 +15,15 @@ source("TARGET_data/get_TARGET_data_functions.R")
 # Load gene expression data of project TARGET-ALL-P2
 ALL_P2_exp_data <- get(load("TARGET_data/ALL-P2_exp_data.rda"))
 
+# Load clinical data of project TARGET-ALL-P2
+TARGET_ALL_P2_clinical <- get(load("TARGET_data/TARGET_ALL_P2_clinical_data.rda"))
+
 
 ## Wrangle data of TARGET-ALL-P2 project -------------------------------------
 
 # Get clinical data of TARGET-ALL-P2 project
-TARGET_ALL_P2_clinical <- GDCquery_clinic(project = "TARGET-ALL-P2",
-                                          type = "clinical")
+#TARGET_ALL_P2_clinical <- GDCquery_clinic(project = "TARGET-ALL-P2",
+#                                          type = "clinical")
 
 # Extract information about gene expression data of TARGET-ALL-P2 project
 info_exp_data <- get_meta_data(SE_exp_data = ALL_P2_exp_data, 
