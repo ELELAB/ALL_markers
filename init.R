@@ -10,7 +10,7 @@ rm(list = ls())
 # Download data from OSF --------------------------------------------------
 library("osfr")
 node <- osf_retrieve_node("kgfpv")
-files <- osf_ls_files(node)
+files <- osf_ls_files(node, n_max = Inf)
 osf_download(files, 
              recurse = TRUE, 
              conflicts = "skip")
