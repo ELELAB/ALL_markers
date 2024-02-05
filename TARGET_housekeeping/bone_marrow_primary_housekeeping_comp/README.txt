@@ -5,7 +5,7 @@ that compare the consensus DEGs found by limma-voom, edgeR and DESeq2
 to a list of housekeeping genes.
 This directory also contains the folder HKG_lists which contains the
 list of housekeeping genes used for comparison. This housekeeping
-list was downloaded from [https://www.tau.ac.il/~elieis/HKG/](https://www.tau.ac.il/~elieis/HKG/) with
+list was downloaded from https://www.tau.ac.il/~elieis/HKG/ with
 associated publication: 
 Eisenberg E, Levanon EY. Human housekeeping genes, revisited. 
 Trends Genet. 2013 Oct;29(10):569-74. doi: 10.1016/j.tig.2013.05.010. 
