@@ -22,33 +22,33 @@ res_limma <- readRDS("TARGET_dea/bone_marrow_primary_dea_comp/limma_voom/years_b
 
 # Add column denoting whether the gene is DEG column to DESeq2 results
 res_deseq2 <- res_deseq2 %>%
-  mutate(DEG = ifelse(padj < 0.05, 1, 0)) %>%
-  mutate(DEG = as.factor(DEG)) %>%
-  select(ENSEMBL_ID,`Gene name`, baseMean, log2FoldChange, DEG) %>%
-  rename(Gene_name = `Gene name`)
+  dplyr::mutate(DEG = ifelse(padj < 0.05, 1, 0)) %>%
+  dplyr::mutate(DEG = as.factor(DEG)) %>%
+  dplyr::select(ENSEMBL_ID,`Gene name`, baseMean, log2FoldChange, DEG) %>%
+  dplyr::rename(Gene_name = `Gene name`)
 
 # Add column denoting whether the gene is DEG column to edgeR results
 res_edger <- res_edger %>% 
-  mutate(DEG = ifelse(FDR < 0.05, 1, 0)) %>%
-  mutate(DEG = as.factor(DEG)) %>%
-  select(ENSEMBL_ID, `Gene name`, logFC, logCPM, DEG) %>%
-  rename(Gene_name = `Gene name`)
+  dplyr::mutate(DEG = ifelse(FDR < 0.05, 1, 0)) %>%
+  dplyr::mutate(DEG = as.factor(DEG)) %>%
+  dplyr::select(ENSEMBL_ID, `Gene name`, logFC, logCPM, DEG) %>%
+  dplyr::rename(Gene_name = `Gene name`)
 
 # Add column denoting whether the gene is DEG column to limma results
 res_limma <- res_limma %>% 
-  mutate(DEG = ifelse(adj.P.Val < 0.05, 1, 0)) %>%
-  mutate(DEG = as.factor(DEG)) %>%
-  rename(logCPM = AveExpr)  %>% # AveExpr corresponds to logCPM
-  select(ENSEMBL_ID, `Gene name`, logFC, logCPM, DEG) %>%
-  rename(Gene_name = `Gene name`)
+  dplyr::mutate(DEG = ifelse(adj.P.Val < 0.05, 1, 0)) %>%
+  dplyr::mutate(DEG = as.factor(DEG)) %>%
+  dplyr::rename(logCPM = AveExpr)  %>% # AveExpr corresponds to logCPM
+  dplyr::select(ENSEMBL_ID, `Gene name`, logFC, logCPM, DEG) %>%
+  dplyr::rename(Gene_name = `Gene name`)
 
 # res_combined
 res_combined <- res_edger %>%
   inner_join(res_limma, by = c("ENSEMBL_ID", "Gene_name"), suffix = c("_edger", "_limma")) %>%
   inner_join(res_deseq2, by = c("ENSEMBL_ID", "Gene_name"), suffix = c("", "_deseq2")) %>%
-  rename(baseMean_deseq2 = baseMean, log2FoldChange_deseq2 = log2FoldChange, DEG_deseq2 = DEG) %>%
-  mutate(common_DEG = ifelse(DEG_deseq2 == 1 & DEG_edger == 1 & DEG_limma == 1, 1, 0)) %>%
-  mutate(common_DEG = as.factor(common_DEG))
+  dplyr::rename(baseMean_deseq2 = baseMean, log2FoldChange_deseq2 = log2FoldChange, DEG_deseq2 = DEG) %>%
+  dplyr::mutate(common_DEG = ifelse(DEG_deseq2 == 1 & DEG_edger == 1 & DEG_limma == 1, 1, 0)) %>%
+  dplyr::mutate(common_DEG = as.factor(common_DEG))
 
 
 ## Visualization ---------------------------------------------------------------
