@@ -30,14 +30,14 @@ DEG_consensus <- DEA_consensus$Gene_name
 
 # Get vector of upregulated consensus DEGs
 DEG_consensus_up <- DEA_consensus %>% 
-  filter(logFC_mean > 0) %>%
-  select(Gene_name) %>%
+  dplyr::filter(logFC_mean > 0) %>%
+  dplyr::select(Gene_name) %>%
   pull
 
 # Get vector of downregulated consensus DEGs
 DEG_consensus_down <- DEA_consensus %>% 
-  filter(logFC_mean < 0) %>%
-  select(Gene_name) %>%
+  dplyr::filter(logFC_mean < 0) %>%
+  dplyr::select(Gene_name) %>%
   pull
 
 # Create vector of databases to use for enrichment analysis 
