@@ -4,7 +4,12 @@ This directory, bone_marrow_primary_housekeeping_comp, contains scripts
 that compare the consensus DEGs found by limma-voom, edgeR and DESeq2 
 to a list of housekeeping genes.
 This directory also contains the folder HKG_lists which contains the
-list of housekeeping genes used for comparison.
+list of housekeeping genes used for comparison. This housekeeping
+list was downloaded from [https://www.tau.ac.il/~elieis/HKG/](https://www.tau.ac.il/~elieis/HKG/) with
+associated publication: 
+Eisenberg E, Levanon EY. Human housekeeping genes, revisited. 
+Trends Genet. 2013 Oct;29(10):569-74. doi: 10.1016/j.tig.2013.05.010. 
+Epub 2013 Jun 27. Erratum in: Trends Genet. 2014 Mar;30(3):119-20. PMID: 23810203.
 
 
 * REQUIREMENTS *

@@ -107,7 +107,12 @@ TARGET_dea:
 
 TARGET_housekeeping
 - This directory investigates overlaps of discovered differentially expressed 
-  genes with lists of housekeeping genes
+  genes with a list of housekeeping genes
+- This list of housekeeping genes was downloaded from [https://www.tau.ac.il/~elieis/HKG/](https://www.tau.ac.il/~elieis/HKG/)
+  with associated publication: 
+  Eisenberg E, Levanon EY. Human housekeeping genes, revisited. 
+  Trends Genet. 2013 Oct;29(10):569-74. doi: 10.1016/j.tig.2013.05.010. 
+  Epub 2013 Jun 27. Erratum in: Trends Genet. 2014 Mar;30(3):119-20. PMID: 23810203.
 
 TARGET_enrichment
 - This directory performs enrichment analyses of consensus differentially
