@@ -6,6 +6,7 @@
 library(tidyverse)
 library(gridExtra)
 library(viridis)
+library(SummarizedExperiment)
 
 # Source functions script
 source("TARGET_housekeeping/bone_marrow_primary_housekeeping_comp/TARGET_ALL_P2_bmp_housekeeping_functions.R")

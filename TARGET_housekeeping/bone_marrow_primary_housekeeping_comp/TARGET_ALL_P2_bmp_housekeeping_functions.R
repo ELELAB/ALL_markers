@@ -44,7 +44,7 @@ wrangle_exp_data <- function(exp_data,
               gene_exp_T) %>%
     dplyr::mutate(HK_data %>% 
              filter(ENSEMBL_ID == rownames(exp_data)[gene_row_num]) %>% 
-             select(Gene_name)) 
+             dplyr::select(Gene_name.x)) 
   
   # Return tibble of gene expression values for respective gene   
   return(gene_exp_T_B)
