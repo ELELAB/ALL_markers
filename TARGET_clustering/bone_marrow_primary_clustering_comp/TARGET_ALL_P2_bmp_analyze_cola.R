@@ -228,8 +228,8 @@ dev.off()
 ### Save data ---------------------------------------------------------------------------------------------------------
 
 # Save table containing predicted cluster labels of samples together with probability of membership and actual class label
-write_csv(samples_clusters, 
-          file = "TARGET_clustering/bone_marrow_primary_clustering_comp/TARGET_ALL_P2_bmp_cola_samples_clusters.csv")
+#write_csv(samples_clusters, 
+#          file = "TARGET_clustering/bone_marrow_primary_clustering_comp/TARGET_ALL_P2_bmp_cola_samples_clusters.csv")
 
 # Save confusion matrix plots of batch corrected data using all methods in one pdf
 ggsave(filename = "TARGET_clustering/bone_marrow_primary_clustering_comp/TARGET_ALL_P2_bmp_cola_batch_confusion_matrices.pdf", 
