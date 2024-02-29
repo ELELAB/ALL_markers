@@ -7,6 +7,14 @@ Cancer Systems Biology, Section of Bioinformatics, Department of Health and Tech
 This repository contains scripts related to the discovery of gene expression markers 
 that distinguish two acute lymphoblastic leukemia subtypes: B-cell and T-cell ALL. 
 
+Data-driven discovery of gene expression markers distinguishing pediatric acute 
+lymphoblastic leukemia subtypes. Mona Nourbakhsh, Nikola Tom, Anna Schroeder Lassen, 
+Helene Brasch Lind Petersen, Ulrik Kristoffer Stoltze, Karin Wadt, Kjeld Schmiegelow, 
+Matteo Tiberti, Elena Papaleo. bioRxiv 2024.02.26.582026; 
+doi: https://doi.org/10.1101/2024.02.26.582026
+
+Please cite the paper above if you use the scripts for your own research.
+
 ## Installation requirements and guideline for reproducing the analyses
 
 All analyses have been performed on a GNU/Linux server. 
