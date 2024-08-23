@@ -153,6 +153,10 @@ TARGET_drug_targets
   related gene expression markers are annotated as drug targets in the
   Drug Gene Interaction Database
 
+TARGET_known_markers
+- This directory compares the expression of predicted markers with known
+  markers
+
 validation
 - This directory contains scripts used to perform validation of predicted
   gene expression markers from an independent cohort of patients with ALL

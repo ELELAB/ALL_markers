@@ -220,3 +220,11 @@ source("TARGET_survival/bone_marrow_primary_survival_comp/TARGET_ALL_P2_bmp_surv
 source("TARGET_drug_targets/bone_marrow_primary_drug_targets_comp/TARGET_ALL_P2_bmp_drug_targets_markers.R")
 
 # --------------------------------------------------------------------------
+
+
+## COMPARISON WITH KNOWN MARKERS -----------------------------------------------
+
+# Compare expression of predicted markers with known markers
+source("TARGET_known_markers/bone_marrow_primary_known_markers_comp/TARGET_ALL_P2_bmp_known_markers.R")
+
+# --------------------------------------------------------------------------
