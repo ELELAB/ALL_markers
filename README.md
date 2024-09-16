@@ -157,6 +157,10 @@ TARGET_known_markers
 - This directory compares the expression of predicted markers with known
   markers
 
+TARGET_blood_validation
+- This directory performs clustering of expression of predicted markers of
+  TARGET blood samples
+
 validation
 - This directory contains scripts used to perform validation of predicted
   gene expression markers from an independent cohort of patients with ALL

@@ -228,3 +228,11 @@ source("TARGET_drug_targets/bone_marrow_primary_drug_targets_comp/TARGET_ALL_P2_
 source("TARGET_known_markers/bone_marrow_primary_known_markers_comp/TARGET_ALL_P2_bmp_known_markers.R")
 
 # --------------------------------------------------------------------------
+
+
+## TARGET BLOOD VALIDATION -----------------------------------------------
+
+# Perform clustering of expression of predicted markers in TARGET blood samples
+source("TARGET_blood_validation/TARGET_blood_validation.R")
+
+# --------------------------------------------------------------------------
