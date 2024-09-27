@@ -236,3 +236,12 @@ source("TARGET_known_markers/bone_marrow_primary_known_markers_comp/TARGET_ALL_P
 source("TARGET_blood_validation/TARGET_blood_validation.R")
 
 # --------------------------------------------------------------------------
+
+
+## GTEx VALIDATION -----------------------------------------------
+
+# Perform clustering of expression of predicted markers in GTEx blood and
+# bone marrow samples
+source("GTEx_validation/GTEx_validation.R")
+
+# --------------------------------------------------------------------------

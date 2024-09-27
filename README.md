@@ -161,6 +161,10 @@ TARGET_blood_validation
 - This directory performs clustering of expression of predicted markers of
   TARGET blood samples
 
+GTEx_validation
+- This directory performs clustering of expression of predicted markers of
+  GTEx blood and bone marrow samples
+
 validation
 - This directory contains scripts used to perform validation of predicted
   gene expression markers from an independent cohort of patients with ALL

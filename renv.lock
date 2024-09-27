@@ -36,6 +36,28 @@
       "Hash": "68122010f01c4dcfbe58ce7112f2433d",
       "Requirements": []
     },
+    "BSgenome": {
+      "Package": "BSgenome",
+      "Version": "1.66.3",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/BSgenome",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "f2f40e0",
+      "git_last_commit_date": "2023-02-16",
+      "Hash": "f56058d8ac778daf0e50e3ad884fc5a2",
+      "Requirements": [
+        "BiocGenerics",
+        "Biostrings",
+        "GenomeInfoDb",
+        "GenomicRanges",
+        "IRanges",
+        "Rsamtools",
+        "S4Vectors",
+        "XVector",
+        "matrixStats",
+        "rtracklayer"
+      ]
+    },
     "Biobase": {
       "Package": "Biobase",
       "Version": "2.58.0",
@@ -302,6 +324,36 @@
         "scatterplot3d"
       ]
     },
+    "Formula": {
+      "Package": "Formula",
+      "Version": "1.2-5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "7a29697b75e027767a53fde6c903eca7",
+      "Requirements": []
+    },
+    "GEOquery": {
+      "Package": "GEOquery",
+      "Version": "2.66.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/GEOquery",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "00a954e",
+      "git_last_commit_date": "2022-11-01",
+      "Hash": "7a35152550f5313c4f7a4ee0e9da8a17",
+      "Requirements": [
+        "Biobase",
+        "R.utils",
+        "curl",
+        "data.table",
+        "dplyr",
+        "limma",
+        "magrittr",
+        "readr",
+        "tidyr",
+        "xml2"
+      ]
+    },
     "GenSA": {
       "Package": "GenSA",
       "Version": "1.1.7",
@@ -382,6 +434,30 @@
         "rtracklayer"
       ]
     },
+    "GenomicFiles": {
+      "Package": "GenomicFiles",
+      "Version": "1.34.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/GenomicFiles",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "65f9a64",
+      "git_last_commit_date": "2022-11-01",
+      "Hash": "4ed71e8b26f06c4ce70416bcba3ad04c",
+      "Requirements": [
+        "BiocGenerics",
+        "BiocParallel",
+        "GenomeInfoDb",
+        "GenomicAlignments",
+        "GenomicRanges",
+        "IRanges",
+        "MatrixGenerics",
+        "Rsamtools",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "VariantAnnotation",
+        "rtracklayer"
+      ]
+    },
     "GenomicRanges": {
       "Package": "GenomicRanges",
       "Version": "1.50.2",
@@ -418,6 +494,31 @@
       "Repository": "CRAN",
       "Hash": "c3f7b221e60c28f5f3533d74c6fef024",
       "Requirements": []
+    },
+    "Hmisc": {
+      "Package": "Hmisc",
+      "Version": "5.1-3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "9a446aea30bff7e8ee20f4c0973e8851",
+      "Requirements": [
+        "Formula",
+        "base64enc",
+        "cluster",
+        "colorspace",
+        "data.table",
+        "foreign",
+        "ggplot2",
+        "gridExtra",
+        "gtable",
+        "htmlTable",
+        "htmltools",
+        "knitr",
+        "nnet",
+        "rmarkdown",
+        "rpart",
+        "viridis"
+      ]
     },
     "IRanges": {
       "Package": "IRanges",
@@ -821,6 +922,36 @@
         "scales"
       ]
     },
+    "VariantAnnotation": {
+      "Package": "VariantAnnotation",
+      "Version": "1.44.1",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/VariantAnnotation",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "2c52839",
+      "git_last_commit_date": "2023-02-14",
+      "Hash": "c5a2ab880906b1ef58e643b8dca53cc9",
+      "Requirements": [
+        "AnnotationDbi",
+        "BSgenome",
+        "Biobase",
+        "BiocGenerics",
+        "Biostrings",
+        "DBI",
+        "GenomeInfoDb",
+        "GenomicFeatures",
+        "GenomicRanges",
+        "IRanges",
+        "MatrixGenerics",
+        "Rhtslib",
+        "Rsamtools",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "XVector",
+        "rtracklayer",
+        "zlibbioc"
+      ]
+    },
     "VennDiagram": {
       "Package": "VennDiagram",
       "Version": "1.7.3",
@@ -1079,6 +1210,31 @@
         "sass"
       ]
     },
+    "bumphunter": {
+      "Package": "bumphunter",
+      "Version": "1.40.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/bumphunter",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "f655014",
+      "git_last_commit_date": "2022-11-01",
+      "Hash": "3219560104fd5816d3d19dfed0f47ac6",
+      "Requirements": [
+        "AnnotationDbi",
+        "BiocGenerics",
+        "GenomeInfoDb",
+        "GenomicFeatures",
+        "GenomicRanges",
+        "IRanges",
+        "S4Vectors",
+        "doRNG",
+        "foreach",
+        "iterators",
+        "limma",
+        "locfit",
+        "matrixStats"
+      ]
+    },
     "caTools": {
       "Package": "caTools",
       "Version": "1.18.3",
@@ -1167,6 +1323,16 @@
       "Requirements": [
         "rematch",
         "tibble"
+      ]
+    },
+    "checkmate": {
+      "Package": "checkmate",
+      "Version": "2.3.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "0e14e01ce07e7c88fd25de6d4260d26b",
+      "Requirements": [
+        "backports"
       ]
     },
     "circlize": {
@@ -1445,6 +1611,49 @@
         "viridis"
       ]
     },
+    "derfinder": {
+      "Package": "derfinder",
+      "Version": "1.32.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/derfinder",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "d837971",
+      "git_last_commit_date": "2022-11-01",
+      "Hash": "40f06012869d411b8877b030fd4d949f",
+      "Requirements": [
+        "AnnotationDbi",
+        "BiocGenerics",
+        "BiocParallel",
+        "GenomeInfoDb",
+        "GenomicAlignments",
+        "GenomicFeatures",
+        "GenomicFiles",
+        "GenomicRanges",
+        "Hmisc",
+        "IRanges",
+        "Rsamtools",
+        "S4Vectors",
+        "bumphunter",
+        "derfinderHelper",
+        "qvalue",
+        "rtracklayer"
+      ]
+    },
+    "derfinderHelper": {
+      "Package": "derfinderHelper",
+      "Version": "1.32.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/derfinderHelper",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "d38b592",
+      "git_last_commit_date": "2022-11-01",
+      "Hash": "405d16bd06e79fe52e9fb63fd129a7ef",
+      "Requirements": [
+        "IRanges",
+        "Matrix",
+        "S4Vectors"
+      ]
+    },
     "desc": {
       "Package": "desc",
       "Version": "1.4.2",
@@ -1484,6 +1693,18 @@
       "Requirements": [
         "foreach",
         "iterators"
+      ]
+    },
+    "doRNG": {
+      "Package": "doRNG",
+      "Version": "1.8.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e207fea8a4991e49c7244001746e3232",
+      "Requirements": [
+        "foreach",
+        "iterators",
+        "rngtools"
       ]
     },
     "docopt": {
@@ -1734,6 +1955,14 @@
         "codetools",
         "iterators"
       ]
+    },
+    "foreign": {
+      "Package": "foreign",
+      "Version": "0.8-87",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "81fc09bdeab0077a73927ed1243404b6",
+      "Requirements": []
     },
     "formatR": {
       "Package": "formatR",
@@ -2175,6 +2404,22 @@
         "pkgconfig",
         "rlang",
         "vctrs"
+      ]
+    },
+    "htmlTable": {
+      "Package": "htmlTable",
+      "Version": "2.4.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "ca027d8771f2c039aed82f00a81e725b",
+      "Requirements": [
+        "checkmate",
+        "htmltools",
+        "htmlwidgets",
+        "knitr",
+        "magrittr",
+        "rstudioapi",
+        "stringr"
       ]
     },
     "htmltools": {
@@ -3132,6 +3377,20 @@
         "survival"
       ]
     },
+    "qvalue": {
+      "Package": "qvalue",
+      "Version": "2.30.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/qvalue",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "e8a4c22",
+      "git_last_commit_date": "2022-11-01",
+      "Hash": "27af855e624e3038119dfa91e91183c2",
+      "Requirements": [
+        "ggplot2",
+        "reshape2"
+      ]
+    },
     "rDGIdb": {
       "Package": "rDGIdb",
       "Version": "1.24.0",
@@ -3233,6 +3492,30 @@
         "withr"
       ]
     },
+    "recount": {
+      "Package": "recount",
+      "Version": "1.24.1",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/recount",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "e3cb1d7",
+      "git_last_commit_date": "2023-02-20",
+      "Hash": "f72a7799560d421aa020101cb7411e4e",
+      "Requirements": [
+        "BiocParallel",
+        "GEOquery",
+        "GenomeInfoDb",
+        "GenomicRanges",
+        "IRanges",
+        "RCurl",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "derfinder",
+        "downloader",
+        "rentrez",
+        "rtracklayer"
+      ]
+    },
     "rematch": {
       "Package": "rematch",
       "Version": "1.0.1",
@@ -3258,6 +3541,18 @@
       "Repository": "CRAN",
       "Hash": "227045be9aee47e6dda9bb38ac870d67",
       "Requirements": []
+    },
+    "rentrez": {
+      "Package": "rentrez",
+      "Version": "1.2.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "90e6d8dc1b2fe96d0753a94943cf604d",
+      "Requirements": [
+        "XML",
+        "httr",
+        "jsonlite"
+      ]
     },
     "renv": {
       "Package": "renv",
@@ -3363,6 +3658,16 @@
         "tinytex",
         "xfun",
         "yaml"
+      ]
+    },
+    "rngtools": {
+      "Package": "rngtools",
+      "Version": "1.5.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "367a915f939520767660671efa0e32bd",
+      "Requirements": [
+        "digest"
       ]
     },
     "rpart": {
