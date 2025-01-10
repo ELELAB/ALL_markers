@@ -53,7 +53,7 @@ colnames(matrix_melt) <- c("Predicted_markers", "Known_markers", "Correlation")
 # Create heatmap of correlation values
 cor_heatmap <- ggplot(matrix_melt, mapping = aes(x = Known_markers, y = Predicted_markers, fill = Correlation)) +
   geom_tile() +
-  scale_fill_viridis(option = "D") +
+  scale_fill_gradient2(low = "red", mid = "white", high = "blue") +
   labs(title = "Heatmap of correlation values between markers") +
   theme_bw()+
   theme(axis.text.x = element_text(size = 8, color = "black", angle = 90, hjust = -1),
