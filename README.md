@@ -165,6 +165,10 @@ GTEx_validation
 - This directory performs clustering of expression of predicted markers of
   GTEx blood and bone marrow samples
 
+TARGET_linear_discriminant_analysis
+- This directory performs linear discriminant analysis of the expression
+  data
+
 validation
 - This directory contains scripts used to perform validation of predicted
   gene expression markers from an independent cohort of patients with ALL

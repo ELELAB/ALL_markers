@@ -159,6 +159,14 @@
         "crayon"
       ]
     },
+    "Cairo": {
+      "Package": "Cairo",
+      "Version": "1.6-0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "60aada7beac23aa3e9b219485d6b2da8",
+      "Requirements": []
+    },
     "ComplexHeatmap": {
       "Package": "ComplexHeatmap",
       "Version": "2.14.0",
@@ -354,6 +362,14 @@
         "xml2"
       ]
     },
+    "GSA": {
+      "Package": "GSA",
+      "Version": "1.03.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "635c4a19876864f3e4fa1b69996abbc5",
+      "Requirements": []
+    },
     "GenSA": {
       "Package": "GenSA",
       "Version": "1.1.7",
@@ -473,6 +489,19 @@
         "IRanges",
         "S4Vectors",
         "XVector"
+      ]
+    },
+    "GeoDE": {
+      "Package": "GeoDE",
+      "Version": "1.0",
+      "Source": "URL",
+      "Repository": "CRAN",
+      "RemoteType": "url",
+      "RemoteUrl": "https://cran.r-project.org/src/contrib/Archive/GeoDE/GeoDE_1.0.tar.gz",
+      "Hash": "4327a9b60798e6cd60422cb6bde9d90c",
+      "Requirements": [
+        "MASS",
+        "Matrix"
       ]
     },
     "GetoptLong": {
@@ -1928,6 +1957,17 @@
       "Hash": "09fb526c49460c4933bc077db6eba924",
       "Requirements": []
     },
+    "fontawesome": {
+      "Package": "fontawesome",
+      "Version": "0.4.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c5a628c2570aa86a96cc6ef739d8bfda",
+      "Requirements": [
+        "htmltools",
+        "rlang"
+      ]
+    },
     "forcats": {
       "Package": "forcats",
       "Version": "0.5.2",
@@ -2457,6 +2497,19 @@
       "Repository": "CRAN",
       "Hash": "13641a1c6d2cc98801b76764078e17ea",
       "Requirements": []
+    },
+    "httpuv": {
+      "Package": "httpuv",
+      "Version": "1.6.8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "08e611aee165b27f8ff18770285fb535",
+      "Requirements": [
+        "R6",
+        "Rcpp",
+        "later",
+        "promises"
+      ]
     },
     "httr": {
       "Package": "httr",
@@ -3015,6 +3068,18 @@
         "askpass"
       ]
     },
+    "openxlsx": {
+      "Package": "openxlsx",
+      "Version": "4.2.5.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e398ce13682a7409d16e13df09f65875",
+      "Requirements": [
+        "Rcpp",
+        "stringi",
+        "zip"
+      ]
+    },
     "osfr": {
       "Package": "osfr",
       "Version": "0.2.9",
@@ -3052,6 +3117,17 @@
       "Hash": "b37932b67288bc62bb81686b2f337a7d",
       "Requirements": [
         "remotes"
+      ]
+    },
+    "pamr": {
+      "Package": "pamr",
+      "Version": "1.56.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5fd4f46c00b680611fe471b85d856189",
+      "Requirements": [
+        "cluster",
+        "survival"
       ]
     },
     "parallelly": {
@@ -3403,6 +3479,17 @@
       "Requirements": [
         "httr",
         "jsonlite"
+      ]
+    },
+    "ragg": {
+      "Package": "ragg",
+      "Version": "1.2.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "690bc058ea2b1b8a407d3cfe3dce3ef9",
+      "Requirements": [
+        "systemfonts",
+        "textshaping"
       ]
     },
     "randomForest": {
@@ -3769,6 +3856,21 @@
         "xml2"
       ]
     },
+    "samr": {
+      "Package": "samr",
+      "Version": "3.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "4bffa539b8fcbb3ed035230b0ac14be1",
+      "Requirements": [
+        "GSA",
+        "impute",
+        "matrixStats",
+        "openxlsx",
+        "shiny",
+        "shinyFiles"
+      ]
+    },
     "sass": {
       "Package": "sass",
       "Version": "0.4.5",
@@ -3827,6 +3929,49 @@
       "Hash": "9067f962730f58b14d8ae54ca885509f",
       "Requirements": []
     },
+    "shiny": {
+      "Package": "shiny",
+      "Version": "1.7.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c2eae3d8c670fa9dfa35a12066f4a1d5",
+      "Requirements": [
+        "R6",
+        "bslib",
+        "cachem",
+        "commonmark",
+        "crayon",
+        "ellipsis",
+        "fastmap",
+        "fontawesome",
+        "glue",
+        "htmltools",
+        "httpuv",
+        "jsonlite",
+        "later",
+        "lifecycle",
+        "mime",
+        "promises",
+        "rlang",
+        "sourcetools",
+        "withr",
+        "xtable"
+      ]
+    },
+    "shinyFiles": {
+      "Package": "shinyFiles",
+      "Version": "0.9.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "92c28bcdee44e205a99799f6ea604b82",
+      "Requirements": [
+        "fs",
+        "htmltools",
+        "jsonlite",
+        "shiny",
+        "tibble"
+      ]
+    },
     "skmeans": {
       "Package": "skmeans",
       "Version": "0.2-14",
@@ -3853,6 +3998,14 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "40b74690debd20c57d93d8c246b305d4",
+      "Requirements": []
+    },
+    "sourcetools": {
+      "Package": "sourcetools",
+      "Version": "0.1.7",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "947e4e02a79effa5d512473e10f41797",
       "Requirements": []
     },
     "stringi": {
@@ -3992,6 +4145,17 @@
         "rlang",
         "waldo",
         "withr"
+      ]
+    },
+    "textshaping": {
+      "Package": "textshaping",
+      "Version": "0.3.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "1ab6223d3670fac7143202cb6a2d43d5",
+      "Requirements": [
+        "cpp11",
+        "systemfonts"
       ]
     },
     "tibble": {
@@ -4314,6 +4478,14 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "ee9b643aa8331c45d8d82eb3a137c9bc",
+      "Requirements": []
+    },
+    "zip": {
+      "Package": "zip",
+      "Version": "2.2.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c42bfcec3fa6a0cce17ce1f8bc684f88",
       "Requirements": []
     },
     "zlibbioc": {

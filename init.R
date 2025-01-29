@@ -238,10 +238,22 @@ source("TARGET_blood_validation/TARGET_blood_validation.R")
 # --------------------------------------------------------------------------
 
 
-## GTEx VALIDATION -----------------------------------------------
+## GTEx VALIDATION --------------------------------------------------------
 
 # Perform clustering of expression of predicted markers in GTEx blood and
 # bone marrow samples
 source("GTEx_validation/GTEx_validation.R")
 
 # --------------------------------------------------------------------------
+
+
+## CHARACTERISTIC DIRECTION VECTOR ANALYSIS----------------------------------
+
+# Perform characteristic direction vector analysis
+source("TARGET_linear_discriminant_analysis/TARGET_ALL_P2_lda.R")
+
+# Analyze results from characteristic direction vector analysis
+source("TARGET_linear_discriminant_analysis/TARGET_ALL_P2_lda_analysis.R")
+
+# --------------------------------------------------------------------------
+
